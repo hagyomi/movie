@@ -1,4 +1,8 @@
 ﻿.site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
     height: 104px;
     padding-inline: var(--content-gutter);
     background: transparent;
@@ -6,6 +10,7 @@
 }
 
 .header-logo {
+    pointer-events: auto;
     display: flex;
     width: max-content;
     align-items: center;
@@ -22,4 +27,5 @@
     outline-offset: 8px;
     border-radius: 2px;
 }
+
 
