@@ -1,0 +1,25 @@
+﻿.site-header {
+    height: 104px;
+    padding-inline: var(--content-gutter);
+    background: transparent;
+    color: #fff;
+}
+
+.header-logo {
+    display: flex;
+    width: max-content;
+    align-items: center;
+}
+
+.header-logo-image {
+    display: block;
+    width: clamp(64px, 6vw, 80px);
+    height: auto;
+}
+
+.header-logo:focus-visible {
+    outline: 2px solid #fff;
+    outline-offset: 8px;
+    border-radius: 2px;
+}
+
